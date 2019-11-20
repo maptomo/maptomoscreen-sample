@@ -3,12 +3,12 @@
 ## Local minimum
 Draw a map based on default config data.
 - [index_local_minimum.html](index_local_minimum.html)
-- [sample_minimum.js](index_local_minimum.html)
+- [sample_minimum.js](sample_minimum.js)
 
 ## Local standard
 Draw a map based on sample params, point, line, polygon.
 - [index_local_standard.html](index_local_standard.html)
-- [sample_standard.js](index_local_standard.html)
+- [sample_standard.js](sample_standard.js)
 
 ## kintone JavaScript customize
 Customize kintone using jQuery, MaptomoAPI (CDN).
@@ -25,9 +25,11 @@ Customize kintone using jQuery, MaptomoAPI (CDN).
 |Color|SINGLE_LINE_TEXT||
 |Selected|CHECK_BOX|['ON']|
 
-2. Customize  View
+2. Customize View
 
-**Get Customize viewId**
+kintone Customize view HTML
+*Get Customize viewId >>3.
+
 ~~~HTML
 <title>MaptomoScreen Sample</title>
 <button id="btn_selected">Show selected data</button> 
