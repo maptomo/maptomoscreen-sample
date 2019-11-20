@@ -1,4 +1,4 @@
-# maptomoscreen-sample
+# MaptomoScreen SAMPLE
 
 ## Local minimum
 Draw a map based on default config data.
