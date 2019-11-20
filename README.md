@@ -27,6 +27,7 @@ Customize kintone using jQuery, MaptomoAPI (CDN).
 
 2. Customize  View
 
+**Get Customize viewId**
 ~~~HTML
 <title>MaptomoScreen Sample</title>
 <button id="btn_selected">Show selected data</button> 
@@ -42,6 +43,9 @@ PC/Mobile
 - CDN
 - [kintone_custom_sample.js](kintone_custom_sample.js)
 
+~~~JavaScript
+    if (event.viewId === { Customize viewId }}) {
+~~~
 
 ## Key
 - MaptomoAPI Key
