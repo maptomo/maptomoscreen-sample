@@ -19,6 +19,7 @@ Customize kintone using jQuery, MaptomoAPI (CDN).
 |Field Code|Field Type|Value/Options|
 |---|---|---|
 |Title|SINGLE_LINE_TEXT||
+|Address|SINGLE_LINE_TEXT||
 |Type|DROP_DOWN|['point','line','polygon']|
 |LatLng|MULTI_LINE_TEXT||
 |Class|SINGLE_LINE_TEXT||
