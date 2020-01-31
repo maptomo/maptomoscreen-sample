@@ -30,8 +30,7 @@ jQuery.noConflict();
 
     var obj = document.getElementById('btn_selected');
     obj.addEventListener('click', function () {
-      var strSelected = mtScreen.getSelectShape().join(',');
-      alert(strSelected);
+      alert(JSON.stringify(mtScreen.getSelectShape()));
     }, false);
 
     var obj2 = document.getElementById('btn_default');
@@ -210,7 +209,7 @@ var params = {
     'id': 'mt-map',
     'height': '400px',
   },
-  'center': [33.593007, 130.410464],
+  'center': [130.410464, 33.593007],
   //    'engine': 'gmap',
   'engine': 'gmap',
   'layer': 'osm_monochrome',
