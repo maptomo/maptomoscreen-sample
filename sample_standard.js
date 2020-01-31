@@ -9,7 +9,7 @@ console.log('MaptomoScreen standard sample');
 
 // Information about map drawing
 var params = {
-  'center': [33.593007, 130.410464],
+  'center': [130.410464, 33.593007],
   'engine': 'leaflet',
   'layer': 'osm',
   'size': 14,
