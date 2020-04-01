@@ -215,7 +215,7 @@ var params = {
   'layer': 'osm_monochrome',
   'size': 14,
   'lang': 'ja',
-  'map_option': {
+  'option': {
     'mode': 'show',
     'sidebar': true,
     'zoom': true,
