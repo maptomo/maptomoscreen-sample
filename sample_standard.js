@@ -55,7 +55,7 @@ var params = {
 // Authentication information
 var certif = {
   'maptomo': '', // MaptomoAPI key
-  'gmap': '' // Google Maps API key
+  'gmap': '' // Google Cloud Platform API Key
 };
 
 // Constructor and draw map
