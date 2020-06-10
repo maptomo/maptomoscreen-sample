@@ -200,7 +200,7 @@ function setMatomotoFormatRecords(ev, params) {
 // Authentication information
 var certif = {
   'maptomo': '', // MaptomoAPI key
-  'gmap': '' // Google Maps API key
+  'gmap': '' // Google Cloud Platform API Key
 };
 
 // Information about map drawing
