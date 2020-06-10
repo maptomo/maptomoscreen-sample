@@ -9,7 +9,8 @@ console.log('MaptomoScreen minimum sample');
 
 // Authentication information
 var certif = {
-  'maptomo': '' // MaptomoAPI key
+  'maptomo': '', // MaptomoAPI key
+  'gmap': '' // Google Cloud Platform API Key
 };
 
 // Constructor and draw map
