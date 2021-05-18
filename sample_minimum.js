@@ -8,11 +8,11 @@
 console.log('MaptomoScreen minimum sample');
 
 // Authentication information
-var certif = {
+var key = {
   'maptomo': '', // MaptomoAPI key
   'gmap': '' // Google Cloud Platform API Key
 };
 
 // Constructor and draw map
-var mtScreen = new MaptomoScreen(certif);
+var mtScreen = new MaptomoScreen(key);
 mtScreen.draw();
