@@ -24,9 +24,10 @@ jQuery.noConflict();
     if (event.viewId === { Customize viewId }}) {
 
     setMatomotoFormatRecords(event, params);
-
-    var mtScreen = new MaptomoScreen(certif, params);
-    mtScreen.draw();
+      
+    var certif = new MaptomoAuth(key);
+    var mtScreen = new MaptomoScreen(certif);
+    mtScreen.draw(params);
 
     var obj = document.getElementById('btn_selected');
     obj.addEventListener('click', function () {
@@ -198,7 +199,7 @@ function setMatomotoFormatRecords(ev, params) {
 }
 
 // Authentication information
-var certif = {
+var key = {
   'maptomo': '', // MaptomoAPI key
   'gmap': '' // Google Cloud Platform API Key
 };
